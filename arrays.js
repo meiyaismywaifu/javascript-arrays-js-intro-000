@@ -21,7 +21,7 @@ function addElementToEndOfArray(arrayInput,elementInput){
 }
 
 function destructivelyAddElementToEndOfArray(arrayInput,elementInput){
-  arrayInput = [...arrayInput, elementInput];
+  var arrayInput = [...arrayInput, elementInput];
   return arrayInput;
 }
 
