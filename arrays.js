@@ -12,7 +12,7 @@ function addElementToBeginningOfArray(arrayInput,elementInput){
 
 function destructivelyAddElementToBeginningOfArray(arrayInput,elementInput){
   array = [elementInput, ...arrayInput];
-  console.log("testing console log in here");
+  console.log("array is" + array);
   return array;
 }
 
