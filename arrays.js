@@ -12,8 +12,8 @@ function addElementToBeginningOfArray(arrayInput,elementInput){
 }
 
 function destructivelyAddElementToBeginningOfArray(arrayInput,elementInput){
-  arrayInput = [elementInput, ...arrayInput];
-  return arrayInput;
+  array = [elementInput, ...arrayInput];
+  return array;
 }
 
 function addElementToEndOfArray(arrayInput,elementInput){
