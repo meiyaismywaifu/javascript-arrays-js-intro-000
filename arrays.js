@@ -5,6 +5,8 @@ var chocolateBars = [
   "skittles"
 ]
 
+var array;
+
 function addElementToBeginningOfArray(arrayInput,elementInput){
   var arrayInternal = arrayInput;
   arrayInternal = [elementInput, ...arrayInternal];
