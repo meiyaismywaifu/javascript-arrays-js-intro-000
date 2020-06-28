@@ -11,8 +11,8 @@ function addElementToBeginningOfArray(arrayInput,elementInput){
 }
 
 function destructivelyAddElementToBeginningOfArray(arrayInput,elementInput){
-  array = [elementInput, ...arrayInput];
-  console.log("array is" + array);
+  arrayInput = [elementInput, ...arrayInput];
+  console.log("array is" + arrayInput);
   return array;
 }
 
