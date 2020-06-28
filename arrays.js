@@ -7,8 +7,7 @@ var chocolateBars = [
 
 function addElementToBeginningOfArray(arrayInput,elementInput){
   var arrayInternal = arrayInput;
-  //arrayInternal = [arrayInput, ...arrayInternal];
-  arrayInternal.unshift(arrayInput);
+  arrayInternal = [elementInput, ...arrayInternal];
   return arrayInternal;
 }
 
